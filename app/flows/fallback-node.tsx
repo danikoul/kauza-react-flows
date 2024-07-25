@@ -1,7 +1,7 @@
 import React from 'react';
 import { Handle, Position } from '@xyflow/react';
 
-const CustomNode = ({ data, isConnectable }) => {
+const FallbackNode = ({ data, isConnectable }) => {
 
   return (
     <div className="px-4 py-1 flex justify-center items-center w-24 group bg-blue-500 text-white text-sm rounded-full">
@@ -25,4 +25,4 @@ const CustomNode = ({ data, isConnectable }) => {
   );
 };
 
-export default CustomNode;
+export default FallbackNode;
